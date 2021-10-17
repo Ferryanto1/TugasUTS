@@ -1,0 +1,119 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    float: left;
+    color: #364f6b;
+    font-size: 50px;
+    font-family: 'courier';
+    font-weight: bold;
+}
+.menu{
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+section{
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #364f6b;
+}
+h2{
+    font-family: 'comic sans ms';
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+a.tbl-biru{
+    color:  white;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 20px 15px 20px 15px;
+    background: #364f6b;
+}
+a.tbl-biru:hover{
+    background: violet;
+}
+p{
+    margin: 10px 0px 10px 0px;
+    padding:0px 10px 0px 10px;
+}
+#contact{
+    padding: 0px 50px 0px 50px;
+    background: white;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: auto;
+}
+.footer-section{
+    margin: auto;
+    width: 20%;
+}
+h3{
+    font-family: 'comic sans ms';
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    line-height: 50px;
+    color: #364f6b;
+}
